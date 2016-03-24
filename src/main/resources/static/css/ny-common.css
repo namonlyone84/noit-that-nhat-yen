@@ -1,0 +1,116 @@
+@font-face {
+    font-family: lora-regular;
+    src: url(/font/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: lora-bold;
+    src: url(/font/Lora-Bold.ttf);
+}
+
+.ny-header {
+    font-family: lora-bold, Arial, sans-serif;
+}
+
+.ny-body {
+    font-family: lora-regular;
+    margin-top: 88px;
+}
+
+.ny-all {
+    padding: 50px 50px 0 50px;
+}
+
+.ny-header-menu {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.ny-brand-box {
+    position: relative;
+    text-align: center;
+    height: 75px;
+    width: 200px;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+
+.ny-com-type {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.ny-com-name {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.ny-header nav {
+    margin: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.ny-icon-box {
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    border: solid 2px #333;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+}
+
+.ny-icon-box, .ny-address-contact {
+    display: block;
+    float: left;
+}
+
+.ny-address-contact {
+    padding-left: 15px;
+}
+
+.ny-icon {
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+.ny-caption, .ny-content {
+    position: relative;
+    display: block;
+    color: #777;
+}
+
+.ny-caption {
+    font-family: lora-bold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.ny-icon-column {
+    padding: 25px 0 25px 60px;
+}
+
+.thumbnails-carousel img {
+    width: 170px;
+    height: 100px;
+}
+
+.ny-carousel-container {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.ny-carousel-slider {
+    width: 75%;
+    display: inline-block;
+    position: relative;
+}
+
+.ny-carousel-slider img {
+    max-height: 400px;
+}
