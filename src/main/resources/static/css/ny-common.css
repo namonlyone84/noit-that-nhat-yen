@@ -34,6 +34,7 @@
     width: 200px;
     margin-top: 12px;
     margin-left: 40px;
+    color: rgb(208, 0, 0);
 }
 
 .ny-com-type {
@@ -52,7 +53,7 @@
 
 .carousel-inner img {
     width: 100%;
-    max-height: 500px;
+    max-height: 600px;
 }
 
 .ny-icon-box {
@@ -65,12 +66,12 @@
     color: #333;
 }
 
-.ny-icon-box, .ny-address-contact {
+.ny-icon-box, .ny-address, .ny-contact {
     display: block;
     float: left;
 }
 
-.ny-address-contact {
+.ny-address, .ny-contact {
     padding-left: 15px;
 }
 
@@ -83,6 +84,12 @@
     position: relative;
     display: block;
     color: #777;
+}
+
+.ny-address .ny-content {
+    color: rgb(152, 72, 6);
+    font-family: lora-bold;
+    font-size: 16px;
 }
 
 .ny-caption {
@@ -106,15 +113,16 @@
 }
 
 .ny-carousel-slider {
-    width: 75%;
+    width: 715px;
     display: inline-block;
     position: relative;
 }
 
 .ny-carousel-slider img {
-    max-height: 400px;
+    height: 400px;
+    width: auto;
 }
 
 .ny-all img {
-    height: 203px;
+    /*height: 203px;*/
 }
